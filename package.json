@@ -15,6 +15,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test-uwu": "react-scripts test --coverage --watchAll ",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -40,5 +41,8 @@
       "!src/index.js",
       "!src/reportWebVitals.js"
     ]
+  },
+  "devDependencies": {
+    "jest": "^28.0.2"
   }
 }

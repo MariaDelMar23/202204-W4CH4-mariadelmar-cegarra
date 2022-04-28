@@ -4,7 +4,7 @@ import PhoneContext from "./PhoneContext";
 const PhoneContextProvider = ({ children }) => {
   const timer = useRef(null);
 
-  const [calling, setCalling] = useState(false);
+  const [calling, setCalling] = useState(true);
   const [phoneNumber, setPhoneNumber] = useState([]);
 
   const addDigit = (digit) => {
